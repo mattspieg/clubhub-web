@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    conosle.log("test worked")
+    console.log("test worked!")
     const defaultUrlParamInput = document.getElementById('Default-URL-Parameters');
     const allUrlParamsInput = document.getElementById('All-URL-Parameters');
     const form = document.getElementById('wf-form-Checkout-Form');
