@@ -197,7 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(baseURL);
         return baseURL;
     }
-    document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.form-input_wrapper input[type="number"]').forEach(input => {
           input.addEventListener('input', function() {
             this.parentElement.classList.toggle('max-reached', this.valueAsNumber >= parseInt(this.max, 10));
@@ -220,5 +219,4 @@ document.addEventListener('DOMContentLoaded', () => {
           document.querySelectorAll('.is-top-button')[index].addEventListener('click', () => incrementValue(inputField));
           document.querySelectorAll('.form-input_number-spin-button:not(.is-top-button)')[index].addEventListener('click', () => decrementValue(inputField));
         });
-    });
   });
